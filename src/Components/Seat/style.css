@@ -1,0 +1,15 @@
+.Seat {
+  width: 26px;
+  height: 26px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+  font-size: 11px;
+  color: #000000;
+  flex-wrap: wrap;
+  margin: 8px 4px;
+  background-color: var(--available-seat-color);
+  border: var(--available-seat-border);
+  cursor: pointer;
+}

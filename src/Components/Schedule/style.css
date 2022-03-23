@@ -1,0 +1,17 @@
+.Schedule {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: var(--default-background-color);
+}
+
+.Schedule .title {
+  width: 100%;
+  height: var(--title-height);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: var(--title-font);
+  color: var(--default-text-color);
+}

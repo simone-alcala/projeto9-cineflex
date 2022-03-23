@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+  --header-background-color: #c3cfd9;
+  --header-text-color: #e8833a;
+
+  --default-text-color: #293845;
+  --default-background-color: #ffffff;
+
+  --default-width: 375px;
+
+  --title-height: 100px;
+  --title-font: 24px;
+
+  --button-background-color: var(--header-text-color);
+  --button-text-color: #ffffff;
+
+  --available-seat-color: #c3cfd9;
+  --unavailable-seat-color: #fbe192;
+  --selected-seat-color: #8dd7cf;
+
+  --available-seat-border: 1px solid #808f9d;
+  --selected-seat-border: 1px solid #45bdb0;
+  --unavailable-seat-border: 1px solid #f7c52b;
+
+  --footer-background-color: #dfe6ed;
+}
+
+body {
+  background-color: var(--default-background-color);
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
+strong {
+  font-weight: 700;
+}

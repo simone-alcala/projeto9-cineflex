@@ -1,0 +1,26 @@
+.Library {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: var(--default-background-color);
+}
+
+.Library .title {
+  width: 100%;
+  height: var(--title-height);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: var(--title-font);
+  color: var(--default-text-color);
+}
+
+.Library .movies {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}

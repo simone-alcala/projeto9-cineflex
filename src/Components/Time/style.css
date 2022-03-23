@@ -1,0 +1,14 @@
+.Time {
+  min-width: 85px;
+  max-width: 85px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--button-background-color);
+  color: var(--button-text-color);
+  border-radius: 3px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  cursor: pointer;
+}

@@ -1,0 +1,63 @@
+.Seats {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: var(--default-background-color);
+  margin-bottom: 200px;
+}
+
+.Seats .title {
+  width: 100%;
+  height: var(--title-height);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: var(--title-font);
+  color: var(--default-text-color);
+}
+
+.Seats .options {
+  width: var(--default-width);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 0 8px;
+}
+
+.Seats .labels {
+  width: var(--default-width);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.Seats .labels div {
+  height: 53;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 20px;
+  color: #4e5a65;
+  font-size: 13px;
+}
+
+.Seats .labels p {
+  margin-top: 10px;
+}
+
+.Seats .buy {
+  width: 225px;
+  height: 42px;
+  color: var(--button-text-color);
+  background-color: var(--button-background-color);
+  cursor: pointer;
+  border-radius: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+}

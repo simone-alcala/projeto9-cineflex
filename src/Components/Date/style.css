@@ -1,0 +1,23 @@
+.Date {
+  width: 100%;
+  min-height: 110px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: var(--default-background-color);
+}
+
+.Date .day {
+  width: var(--default-width);
+  height: 35px;
+  font-size: 20px;
+  color: var(--default-text-color);
+  margin-bottom: 18px;
+}
+
+.Date .time {
+  width: var(--default-width);
+  display: flex;
+  margin-bottom: 25px;
+  flex-wrap: wrap;
+}

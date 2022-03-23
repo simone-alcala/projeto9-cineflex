@@ -1,0 +1,23 @@
+.Customer {
+  display: flex;
+  flex-direction: column;
+}
+
+.Customer label {
+  height: 25px;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.Customer input {
+  width: 327px;
+  height: 51px;
+  border-radius: 3px;
+  border: 1px solid #d5d5d5;
+}
+
+.Customer input::placeholder {
+  font-size: 18px;
+  color: #afafaf;
+  font-style: italic;
+}
