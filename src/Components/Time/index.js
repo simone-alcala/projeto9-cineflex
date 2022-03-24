@@ -1,9 +1,10 @@
 import './style.css';
 
-function Time(){
+function Time(props){
+  const {id, time} = props;
   return (
-    <div className='Time'>
-        hora1
+    <div key={id} className='Time'>
+        {time}
     </div>
   );
 }

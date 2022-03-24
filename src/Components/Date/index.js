@@ -2,16 +2,16 @@ import Time from './../Time'
 
 import './style.css';
 
-
-
-function Date(){
+function Date(props){
+  const {weekday, date, showtimes} = props;
+  console.log(showtimes);
   return (
     <div className='Date'>
       <div className='day'> 
-        Data teste
+        {`${weekday} - ${date}`}
       </div>
       <div className='time'>
-      <Time />
+        {showtimes.map(({id, name})=> <Time id={id} time={name}/>) }
       </div>
     </div>
   );
