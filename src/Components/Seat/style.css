@@ -9,7 +9,20 @@
   color: #000000;
   flex-wrap: wrap;
   margin: 8px 4px;
+  cursor: pointer;
+}
+
+.Seat.available {
   background-color: var(--available-seat-color);
   border: var(--available-seat-border);
-  cursor: pointer;
+}
+
+.Seat.unavailable {
+  background-color: var(--unavailable-seat-color);
+  border: var(--unavailable-seat-border);
+}
+
+.Seat.selected {
+  background-color: var(--selected-seat-color);
+  border: var(--selected-seat-border);
 }

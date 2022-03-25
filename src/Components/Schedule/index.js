@@ -21,16 +21,15 @@ function Schedule(){
   },[]);
 
 
-  return (
+  return (  
 
     Object.values(schedule).length > 0 ?
-    <div className='Schedule'>
-      <div className='title'> Selecione o horário </div>
-      {schedule.days.map(({weekday, date, showtimes}) => 
-        <Date weekday={weekday} date={date} showtimes={showtimes} /> )}
-      
-      <Footer />
-    </div>
+      <div className='Schedule'>
+        <div className='title'> Selecione o horário </div>
+        {schedule.days.map(({id, weekday, date, showtimes}) => 
+          <Date id={id} weekday={weekday} date={date} showtimes={showtimes}  /> )}
+        <Footer title={schedule.title} posterURL={schedule.posterURL} />       
+      </div>
     : <Loading />
   );
 }
