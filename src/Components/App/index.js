@@ -4,6 +4,7 @@ import Header from './../Header';
 import Library from './../Library';
 import Schedule from '../Schedule';
 import Seats from '../Seats';
+import Sucesso from '../Sucesso';
 
 import './style.css';
 
@@ -15,7 +16,7 @@ function App(){
         <Route path='/' element={ <Library /> } />
         <Route path='/filme/:movieId' element={ <Schedule /> } />
         <Route path='/sessao/:sessionId' element={ <Seats /> } />
-        <Route path='/sucesso' element={ <></> } />
+        <Route path='/sucesso' element={ <Sucesso /> } />
       </Routes>
     </BrowserRouter>
   );

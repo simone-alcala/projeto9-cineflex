@@ -1,12 +1,13 @@
 import './style.css';
 
 function Footer(props){
-  const { title, posterURL } = props;
+  const { title, posterURL, weekday, date } = props;
   return (
     <footer className='Footer'>
       <div className='info'>
         <div> <img src={posterURL} alt={title} /> </div>
-        {title} 
+        {title} <br/>
+        { weekday !== undefined && `${weekday} - ${date}` }
       </div>
     </footer>
   );
